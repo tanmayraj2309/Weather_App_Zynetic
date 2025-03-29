@@ -31,15 +31,15 @@ This is a React-based Weather App that fetches and displays real-time weather da
 ## File Structure
 
 weather-app/
-│-- src/
-│   │-- components/
+│-- src
+│   │-- components
 │   │   │-- SearchBar.jsx
 │   │   │-- TemperatureDisplay.jsx
 │   │   │-- WeatherCard.jsx
 │   │   │-- NotFound.jsx
 │   │-- App.js
 │   │-- index.js
-│-- public/
+│-- public
 │-- package.json
 │-- README.md
 

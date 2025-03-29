@@ -12,37 +12,37 @@ This is a React-based Weather App that fetches and displays real-time weather da
 ## Installation
 
 1. Clone the repository:
-
+   ```sh
    git clone https://github.com/yourusername/weather-app.git
-
+   ```
 2. Navigate to the project folder:
-
+   ```sh
    cd weather-app
-
+   ```
 3. Install dependencies:
-
+   ```sh
    npm install
-
+   ```
 4. Start the development server:
-   
+   ```sh
    npm start
-
+   ```
 
 ## File Structure
-
+```
 weather-app/
-│-- src
-│   │-- components
+│-- src/
+│   │-- components/
 │   │   │-- SearchBar.jsx
 │   │   │-- TemperatureDisplay.jsx
 │   │   │-- WeatherCard.jsx
 │   │   │-- NotFound.jsx
 │   │-- App.js
 │   │-- index.js
-│-- public
+│-- public/
 │-- package.json
 │-- README.md
-
+```
 
 ## Usage
 - Enter a city name in the search bar and press enter.
@@ -64,5 +64,6 @@ weather-app/
 ## Contribution
 Feel free to fork the repository and submit pull requests for improvements!
 
-
+## License
+This project is licensed under the MIT License.
 
